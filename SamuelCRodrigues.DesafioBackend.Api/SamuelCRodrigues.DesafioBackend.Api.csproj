@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Refit" Version="4.7.51" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SamuelCRodrigues.DesafioBackend.Application\SamuelCRodrigues.DesafioBackend.Application.csproj" />
+    <ProjectReference Include="..\SamuelCRodrigues.DesafioBackend.Interface\SamuelCRodrigues.DesafioBackend.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
