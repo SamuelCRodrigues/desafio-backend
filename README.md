@@ -3,7 +3,8 @@
 foi criado um endpoint para consumo da listagem de exames (id e nome).
 este endpoint consome o serviço (mock) em ( http://www.mocky.io/v2/5d681ede33000054e7e65c3f)
 
-segue diagrama de sequencia do serviço:
+segue diagrama de sequencia do serviço:<br/>
+
 ![Alt Text](/docs/exame.sequence.svg)
 
 
